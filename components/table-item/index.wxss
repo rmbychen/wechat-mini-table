@@ -1,0 +1,28 @@
+.tr {
+  line-height: 2rem;
+  /* border:1rpx solid #dfdfdf;
+   margin-top: -1rpx; */
+     display: flex;
+}
+.column{
+   flex-direction: column;
+}
+.td,.th {
+  /* width: 100rpx; */
+  flex-shrink: 0;
+    text-align: center;
+}
+
+.th {
+  background: #69b6b6;
+  color: #fff;
+}
+.th+.td,.td+.td{
+ /* border-left: 1rpx solid #dfdfdf; */
+}
+.blue{
+  background: skyblue
+}
+.gray{
+  background: #dfdfdf;
+}

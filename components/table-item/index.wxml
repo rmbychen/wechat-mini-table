@@ -1,0 +1,4 @@
+<view class='tr {{row?"column":""}}' >
+<view class='th' style='width:{{width}}rpx;' animation='{{animationData}}'>{{label}}</view>
+<view class='td' wx:for='{{resultData}}' wx:key='{{index}}' style='width:{{width}}rpx;' animation='{{animationData}}'>{{item}}</view>
+</view>

@@ -1,0 +1,9 @@
+<view class='toggle-button'>
+  <button  type='primary' size='mini' plain bindtap='toggleClass'>横排/竖排</button>
+</view>
+<self-table prop-data='{{tree.children}}' class='table' prop-row='{{row}}'> 
+<self-table-item prop='grade' label='年级'></self-table-item>
+<self-table-item prop='old_record' label='老生保留'></self-table-item>
+<self-table-item prop='add_record' label='老生增报'></self-table-item>
+<self-table-item prop='new_record' label='新生报名'></self-table-item>
+</self-table>

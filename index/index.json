@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "self-table": "../components/table/index",
+    "self-table-item": "../components/table-item/index"
+  }
+}

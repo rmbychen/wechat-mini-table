@@ -1,0 +1,8 @@
+.table{
+  border:1rpx solid #dfdfdf;
+  transform: scale(0)
+}
+.content{
+  display: flex;
+  flex-wrap: nowrap
+}
